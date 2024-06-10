@@ -22,17 +22,17 @@
 | -d | single directory to scan | admin or /admin or admin/ or /admin/ | All these example usages are interpreted in the same way |
 | -D | path to list of directories | ./dirlist.txt, ../../dirlist.txt, etc.  | Just provide the path where the file is located :) |
 
-**Usage 1:** `python3 Bypass403.py -u https://example.com -d /secret`<br>
-**Usage 2:** `python3 Bypass403.py -u https://example.com -D dirlist.txt`<br>
-**Usage 3:** `python3 Bypass403.py -U urllist.txt -d /secret`<br>
-**Usage 4:** `python3 Bypass403.py -U urllist.txt -D dirlist.txt`<br>
+**Usage 1:** `python3 403bypasser.py -u https://example.com -d /secret`<br>
+**Usage 2:** `python3 403bypasser.py -u https://example.com -D dirlist.txt`<br>
+**Usage 3:** `python3 403bypasser.py -U urllist.txt -d /secret`<br>
+**Usage 4:** `python3 403bypasser.py -U urllist.txt -D dirlist.txt`<br>
 
 **IMPORTANT NOTE:** All the followings are interpreted the same. Therefore, which pattern you use is just a matter of preference.
-- `python3 Bypass403.py -u https://example.com -d secret`<br>
-- `python3 Bypass403.py -u https://example.com -d /secret`<br>
-- `python3 Bypass403.py -u https://example.com -d /secret/`<br>
-- `python3 Bypass403.py -u https://example.com -d secret/`<br>
-- `python3 Bypass403.py -u https://example.com/ -d secret`<br>
+- `python3 403bypasser.py -u https://example.com -d secret`<br>
+- `python3 403bypasser.py -u https://example.com -d /secret`<br>
+- `python3 403bypasser.py -u https://example.com -d /secret/`<br>
+- `python3 403bypasser.py -u https://example.com -d secret/`<br>
+- `python3 403bypasser.py -u https://example.com/ -d secret`<br>
 ***ALL THE SAME!***
 
 
@@ -40,7 +40,7 @@
 
 The output of the program is saved (in the current directory) in a file with the name of the domain name given as input.<br>
 For example: <br>
-`python3 Bypass403.py -u https://example.com -d /secret` is given. Then the output is saved to `example.txt` in the current directory.
+`python3 403bypasser.py -u https://example.com -d /secret` is given. Then the output is saved to `example.txt` in the current directory.
 ***
 
 ## Release Notes
